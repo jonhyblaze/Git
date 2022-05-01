@@ -1,6 +1,6 @@
 # Introduction to Git
-
-
+Based on Colt Steele guide, extended with shortcuts git commands.
+--
 Git is officially defined as a *distributed version control system* (VCS).
 
 In other words, it's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time. This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
@@ -9,6 +9,41 @@ Basically, it's a massively popular tool for coordinating parallel work and mana
 
 
 ℹ️  Git official homepage: [https://git-scm.com/](https://git-scm.com/)
+
+
+
+---
+
+# Shortcuts
+
+- `git --version` – check git current version installed
+- `git --help` – command line quick help instruction
+- `git config --global user.name"username"`
+- `git config --global user.email"useremail@email.com"`
+- `git init` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) initializing(creating) repository
+- `git status` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) checking the status
+- `git log`
+- `git branch`
+- `git add file.js` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) add single file to staging area (will allow git to track it)
+- `git add file.js file2.js file3.js` – add multiply file to staging area
+- `git add .` – add all files to staging area
+- `git commit -m “coment or message about current commit”` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee)
+- `git log` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) to see all the commits that been made in our project
+- `git checkout <commit hash>` – go to the previous vresion of project (use commit hash number to load the needed version )
+- `git checkout master` – load current latest version of our project
+- `.gitignore` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) is not a terminal command, for using .gitignor file you need to create it inside your project folder & list each file or folder that you want to ignore in new line
+- `git branch <new-branch-name>` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) create a new brach outside of master. It will reference the current state of your repo.
+- `git checkout-b <new-branch name>`  – to create branch & switch to it at the same time
+- `git checkout master` – go back to master branch
+- `git merge <branch-name>` – [🔗](https://www.notion.so/Introduction-to-Git-16689b50f52246098800dc2b85f4ecee) to merge changes to the current branch from the different branch
+- `git branch -d <branch-name>` – deleting a branch
+- `git remote add origin <url>` – add remote repository
+- `git remote -v` – list of remotes gits
+- `git push origin master` – [🔗](https://gist.github.com/cblunt/860360#add-a-remote-repository) git push to remote depository
+- `git push -u origin master` – git push upstream to remote repository,  push to specified repository
+- `git pull origin master` – first pull from remote git
+
+--------
 
 
 # 1. Setup instructions
