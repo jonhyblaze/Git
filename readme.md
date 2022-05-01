@@ -1,4 +1,4 @@
-#h1 Introduction to Git
+Introduction to Git
 
 ---
 
