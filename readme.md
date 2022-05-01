@@ -1,8 +1,5 @@
-Introduction to Git
+# 1 Introduction to Git
 
----
-
----
 
 Git is officially defined as a *distributed version control system* (VCS).
 
@@ -10,10 +7,9 @@ In other words, it's a system that tracks changes to our project files over time
 
 Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing how to use Git is one of the most important skills for any developer nowadays - and it's definitely a great addition to your resume!
 
-<aside>
+
 ℹ️  Git official homepage: [https://git-scm.com/](https://git-scm.com/)
 
-</aside>
 
 # 1. Setup instructions
 
