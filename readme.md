@@ -1,4 +1,4 @@
-# 1 Introduction to Git
+# Introduction to Git
 
 
 Git is officially defined as a *distributed version control system* (VCS).
